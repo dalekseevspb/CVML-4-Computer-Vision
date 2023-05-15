@@ -15,6 +15,15 @@
 - Визуализируем предсказания
 
 
-HW #2_Cats vs Dogs (with Kaggle submission)
+# (#2) Cats vs Dogs (with Kaggle submission): 
+Финальный вариант для Kaggle, без хода выполнения/картинок: dsu-4-cvml-4-hw-2-corr-7-kaggle-cats-vs-dogs.ipynb
+Промежуточный (Colab), с ходом выполнения/картинками: AlekseevDP(DSU_4,CVML_4)_HW_2(corr)_Colab_Cats_vs_Dogs.ipynb
 
-HW #3_The Nature Conservancy Fisheries Monitoring (with Kaggle submission)
+Датасет https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition
+
+- Реализовано на предобученной сети VGG16(weights='imagenet');
+- Фиксируем веса предобученной НС и добавляем слои, дроп-аут для дообучения модели 
+- Обучаем
+- Готовим данные для отправки на Kaggle
+
+# (#3) The Nature Conservancy Fisheries Monitoring (with Kaggle submission)
