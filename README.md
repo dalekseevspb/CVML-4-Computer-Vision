@@ -29,7 +29,7 @@
 - Готовим данные для отправки на Kaggle (submission)
 
 # (#3) The Nature Conservancy Fisheries Monitoring (with Kaggle submission) 
-# Детекция и многоклассовая классификация рыб на аэрофотографиях рыболовецких судов (на kaggle-датасете "The Nature Conservancy Fisheries Monitoring") на предобученной VGG16(ImageNet) с файн-тюнингом.
+# Детекция и многоклассовая классификация рыб на аэрофотографиях рыболовецких/браконьерских судов (на kaggle-датасете "The Nature Conservancy Fisheries Monitoring") на предобученной VGG16(ImageNet) с файн-тюнингом.
 Финальный вариант для Kaggle, без хода выполнения/картинок: FINAL_alekseevdp-dsu-4-cvml-4-hw-3-fisheries-kaggle (3).ipynb
 
 Промежуточный (Colab), с ходом выполнения/картинками: AlekseevDP(DSU_4,CVML_4)_HW_3_fisheries_monitoring_ver17.ipynb
