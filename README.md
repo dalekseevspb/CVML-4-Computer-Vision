@@ -18,6 +18,7 @@
 # (#2) Cats vs Dogs (with Kaggle submission): 
 # Классификация "Cats vs Dogs" (на kaggle-датасете) на предобученной VGG16(ImageNet) с файн-тюнингом; 
 Финальный вариант для Kaggle, без хода выполнения/картинок: dsu-4-cvml-4-hw-2-corr-7-kaggle-cats-vs-dogs.ipynb
+
 Промежуточный (Colab), с ходом выполнения/картинками: AlekseevDP(DSU_4,CVML_4)_HW_2(corr)_Colab_Cats_vs_Dogs.ipynb
 
 Датасет https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition
@@ -30,6 +31,7 @@
 # (#3) The Nature Conservancy Fisheries Monitoring (with Kaggle submission) 
 # Детекция и многоклассовая классификация рыб на аэрофотографиях рыболовецких судов (на kaggle-датасете "The Nature Conservancy Fisheries Monitoring") на предобученной VGG16(ImageNet) с файн-тюнингом.
 Финальный вариант для Kaggle, без хода выполнения/картинок: FINAL_alekseevdp-dsu-4-cvml-4-hw-3-fisheries-kaggle (3).ipynb
+
 Промежуточный (Colab), с ходом выполнения/картинками: AlekseevDP(DSU_4,CVML_4)_HW_3_fisheries_monitoring_ver17.ipynb
 
 Датасет https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring
@@ -49,7 +51,9 @@
     - oth - Other Fishes (на фото другие рыбы, не относящиеся ни к одному из вышеперечисленных классов)
 
 - загружаем предобученную vgg16.VGG16(weights='imagenet'), дообучаем последние 5 слоев
+  
   Добавлено 6 выходов для классификации детекции 6-и классов (alb, bet, dol, lag, shark, yft).
+  
   Вероятности классов 'Other Fishes' и 'No Fishes' возьмем из примера (sample_submission), они будут константами (не входят в выходы НС):
   - Oth: 0.079142
   - NoF: 0.123081
